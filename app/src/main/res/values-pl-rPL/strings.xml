@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tap">Dotknij aby kontynuować.</string>
+    <string name="helloMain">Co chcesz zrobić:</string>
+    <string name="add">Przyjmij narzędzie.</string>
+    <string name="del">Oddaj narzędzie.</string>
+    <string name="check">Wyświetl listę narzędzi.</string>
+    <string name="settings">Konfiguracja.</string>
+    <string name="cameraError">"Błąd obsługi aparatu: "</string>
+    <string name="appPer">Brak przyznanych uprawnień aplikacji.</string>
+    <string name="SMS_message">"Skontaktuj się ze mną proszę w sprawie wymiany narzędzia serwisowego: "</string>
+    <string name="emailOK">Wiadomość wysłano z powodzeniem.</string>
+    <string name="emailNOK">Wysyłanie wiadomości - błąd.</string>
+    <string name="searching">Przeszukaj</string>
+    <string name="issetAcces">Jesteś już zalogowany.</string>
+    <string name="loginOk">Zalogowano pomyślnie.</string>
+    <string name="loginNok">Błąd logowania.</string>
+    <string name="errREST">Błąd komunikacji z serwerem 0360.</string>
+    <string name="loginOut">Wylogowano.</string>
+    <string name="errBar">Nierpawidłowy kod QR.</string>
+    <string name="errStateAdd">Nie można przyjąć narzędzia [WYCOFANE ]</string>
+    <string name="errStateDel">Nie można oddać narzędzia [WYCOFANE / LOGISTYKA / BADANIE]</string>
+    <string name="yamazaki">YAMAZAKI</string>
+    <string name="department">Central Europe Poland</string>
+    <string name="wait">Czekaj na pobranie listy...</string>
+    <string name="sendSMS">Wyślij wiadomość SMS</string>
+    <string name="sendEmail">Wyślij wiadomość email</string>
+    <string name="callPhone">Zadzwoń</string>
+    <string name="infoLibrary">O aplikacji</string>
+    <string name="infoHeader">Biblioteki wykorzystane w aplikacji:</string>
+    <string name="libraryList">W aplikacji wykorzystano biblioteki na licencjach:\n\\\n\n\t\tApache 2.0 [http://www.apache.org/licenses/LICENSE-2.0]: \n\n\n\n>>ktor-client-core:1.6.4\\n\n>>ktor-client-cio:1.6.4\\n\n>>core-ktx:1.7.0\\n\n>>appcompat:1.4.1\\n\n>>material:1.4.1\\n\n>>constraintlayout:2.1.4\\n\n>>annotation:1.3.0\\n\n>>lifecycle-livedata-ktx:2.4.1\\n\n>>lifecycle-viewmodel-ktx:2.4.1\\n\n>>bcrypt:0.9.0\\n\n>>cardview:1.0.0\\n\n>>recyclerview:1.2.1\\n\n>>mediarouter:1.3.0\\n\n>>jackson-module-kotlin:2.13.0\\n\n>>navigation-fragment-ktx:2.4.2\\n\n>>navigation-ui-ktx:2.4.2\\n\\n\n\n\n\n\t\tMIT [https://opensource.org/licenses/MIT]:\n\n\n\n>>code-scanner:2.3.2 - Copyright (c) 2017 Yuriy Budiyev\n\n\t\t\t\t\t\t\t\t[yuriy.budiyev@yandex.ru]\n\n>>msal:2.2.1 - Copyright (c) Microsoft Corporation.\n\n\t\t\t\t\t\t\t\tAll rights reserved.\n\n</string>
+    <string name="listOK">Lista została w pełni pobrana.</string>
+    <string name="searchErr">Lista jest nie kompletna, zaczekaj na pobranie.</string>
+    <string name="manualSucces">Pomyślnie zmieniono status narzędzia:</string>
+    <string name="ErrDelNoIsset">Nie można oddać nie posiadanego narzędzia.</string>
+    <string name="errAddMe">Posiadasz już to narzędzie.</string>
+    <string name="changePer">ZMIEŃ</string>
+    <string name="saveBox">ZAPISZ</string>
+    <string name="cancelBox">ANULUJ</string>
+    <string name="sendToolTitle">Do kogo wysyłasz narzędzie:</string>
+    <string name="manualErr">Nie zmieniono statusu narzędzia.</string>
+</resources>

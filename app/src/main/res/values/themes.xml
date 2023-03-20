@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ToolExchangeYMCEPL" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@android:color/darker_gray</item>
+        <item name="colorPrimaryVariant">@color/material_on_primary_disabled</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+
+    <style name="Theme.ToolExchangeYMCEPL.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.ToolExchangeYMCEPL.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.ToolExchangeYMCEPL.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

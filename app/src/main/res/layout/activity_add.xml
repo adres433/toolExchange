@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5sp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/topLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/logoTitleLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/yamazaki"
+            android:textAlignment="center"
+            android:textColor="@color/mazak"
+            android:textSize="65sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/logoLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/yamazaki"
+            android:paddingLeft="15sp"
+            android:paddingTop="10sp"
+            android:paddingRight="15sp"
+            android:paddingBottom="10sp"
+            android:src="@drawable/logo_mazak" />
+
+        <TextView
+            android:id="@+id/logoSubTitleLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/department"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@android:drawable/bottom_bar" />
+
+    </LinearLayout>
+
+    <com.budiyev.android.codescanner.CodeScannerView
+        android:id="@+id/scannerViewAdd"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:autoFocusButtonColor="@color/mazak"
+        app:autoFocusButtonVisible="true"
+        app:flashButtonColor="@color/mazak"
+        app:flashButtonVisible="true"
+        app:frameColor="@color/mazak"
+        app:frameCornersSize="50dp"
+        app:frameCornersRadius="50sp"
+        app:frameAspectRatioWidth="1"
+        app:frameAspectRatioHeight="1"
+        app:frameSize="0.75"
+        app:frameThickness="2dp"
+        app:maskColor="#39FF7043"/>
+
+</LinearLayout>

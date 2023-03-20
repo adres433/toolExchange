@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_row="0"
+    android:layout_alignParentTop="false"
+    android:layout_margin="5sp"
+    android:accessibilityHeading="false"
+    android:alwaysDrawnWithCache="true"
+    android:fitsSystemWindows="false"
+    android:gravity="center"
+    android:onClick="closeIntro"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/logoTitleLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:rotationX="15"
+        android:text="@string/yamazaki"
+        android:textAlignment="center"
+        android:textColor="@color/mazak"
+        android:textSize="65sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/logoLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="logo"
+        android:paddingLeft="15sp"
+        android:paddingTop="10sp"
+        android:paddingRight="15sp"
+        android:paddingBottom="10sp"
+        android:rotationX="15"
+        android:src="@drawable/logo_mazak" />
+
+    <TextView
+        android:id="@+id/logoSubTitleLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:rotationX="15"
+        android:text="@string/department"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/titleLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100sp"
+        android:layout_marginBottom="25sp"
+        android:orientation="horizontal"
+        android:rotationX="15"
+        android:scaleX="1.5"
+        android:scaleY="2">
+
+        <TextView
+            android:id="@+id/appName1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="t"
+            android:textColor="@color/mazak"
+            android:textSize="@dimen/title"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/appName2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ool"
+            android:textColor="#000000"
+            android:textSize="@dimen/title"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/appName3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E"
+            android:textAlignment="center"
+            android:textColor="@color/mazak"
+            android:textSize="@dimen/title"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/appName4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="xchange"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="@dimen/title"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/appVer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/version"
+        android:textAlignment="center"
+        android:textColor="#C8C4C4"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/tips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="55sp">
+
+        <View
+            android:id="@+id/spanner"
+            android:layout_width="200sp"
+            android:layout_height="5dp"
+            android:layout_gravity="center"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/tipMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tap"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/sign"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="@string/createdBy"
+            android:textAlignment="center"
+            android:textColor="#C8C4C4"
+            android:textSize="12sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+</LinearLayout>

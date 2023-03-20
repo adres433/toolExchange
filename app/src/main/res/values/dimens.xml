@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title">30sp</dimen>
+    <dimen name="heightInput">50sp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="button_width">250dp</dimen>
+    <dimen name="outline">3dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

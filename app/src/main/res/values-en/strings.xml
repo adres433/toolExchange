@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tap">Tap to next.</string>
+    <string name="helloMain">What you want to do:</string>
+    <string name="add">Take tool.</string>
+    <string name="del">Give tool.</string>
+    <string name="check">Display tool list.</string>
+    <string name="settings">Sign in to O365.</string>
+    <string name="cameraError">"Camera error: "</string>
+    <string name="appPer">No app permissions granted.</string>
+    <string name="SMS_message">"Please contact to my about service tools: "</string>
+    <string name="emailOK">Message send with success.</string>
+    <string name="emailNOK">Send message - error.</string>
+    <string name="searching">Search</string>
+    <string name="loginOk">Login success.</string>
+    <string name="loginNok">Login failure.</string>
+    <string name="issetAcces">You are already logged.</string>
+    <string name="errREST">Communication error witch O365 server.</string>
+    <string name="loginOut">Signed out.</string>
+    <string name="errBar">Bad QR Code.</string>
+    <string name="errStateAdd">Tools cannot be added. [RETIRED]</string>
+    <string name="errStateDel">Tools cannot be returned. [RETIRED / LOGISTIC / VALIDITY]</string>
+    <string name="yamazaki">YAMAZAKI</string>
+    <string name="department">Central Europe Poland</string>
+    <string name="wait">Wait while list downloading...</string>
+    <string name="sendSMS">Send SMS</string>
+    <string name="sendEmail">Send Email</string>
+    <string name="callPhone">Call</string>
+    <string name="infoLibrary">About</string>
+    <string name="infoHeader">Libraries used in app:</string>
+    <string name="libraryList">\t\tApache 2.0 [http://www.apache.org/licenses/LICENSE-2.0]: \n\n\n>>ktor-client-core:1.6.4\\n\n>>ktor-client-cio:1.6.4\\n\n>>core-ktx:1.7.0\\n\n>>appcompat:1.4.1\\n\n>>material:1.4.1\\n\n>>constraintlayout:2.1.4\\n\n>>annotation:1.3.0\\n\n>>lifecycle-livedata-ktx:2.4.1\\n\n>>lifecycle-viewmodel-ktx:2.4.1\\n\n>>bcrypt:0.9.0\\n\n>>cardview:1.0.0\\n\n>>recyclerview:1.2.1\\n\n>>mediarouter:1.3.0\\n\n>>jackson-module-kotlin:2.13.0\\n\n>>navigation-fragment-ktx:2.4.2\\n\n>>navigation-ui-ktx:2.4.2\\n\\n\n\n\n\n\t\tMIT [https://opensource.org/licenses/MIT]:\n\n\n\n>>code-scanner:2.3.2 - Copyright (c) 2017 Yuriy Budiyev\n\n\t\t\t\t\t\t\t\t[yuriy.budiyev@yandex.ru]\n\n>>msal:2.2.1 - Copyright (c) Microsoft Corporation.\n\n\t\t\t\t\t\t\t\tAll rights reserved.\n\n</string>
+    <string name="listOK">List download was over.</string>
+    <string name="searchErr">List is not complete. Pease wait, list is downloading.</string>
+    <string name="manualSucces">Tool status changed succes:</string>
+    <string name="ErrDelNoIsset">You cannot give back not owned tool.</string>
+    <string name="errAddMe">You have this tool yet.</string>
+    <string name="changePer">CHANGE</string>
+    <string name="saveBox">SAVE</string>
+    <string name="cancelBox">CANCEL</string>
+    <string name="sendToolTitle">Where sending tool you:</string>
+    <string name="manualErr">Tool status unchanged.</string>
+</resources>

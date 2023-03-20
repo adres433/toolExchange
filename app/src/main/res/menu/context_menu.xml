@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/sendSMS"
+        android:title="@string/sendSMS" />
+    <item
+        android:id="@+id/callNumber"
+        android:title="@string/callPhone" />
+    <item
+        android:id="@+id/sendEmail"
+        android:title="@string/sendEmail" />
+    <item
+        android:id="@+id/manualAdd"
+        android:title="@string/add" />
+    <item
+        android:id="@+id/manualDel"
+        android:title="@string/del" />
+
+</menu>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5sp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/topLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@id/helloMain"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/logoTitleLogin"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:layout_gravity="center"
+            android:text="@string/yamazaki"
+            android:textAlignment="center"
+            android:textColor="@color/mazak"
+            android:textSize="60sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/logoLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="102dp"
+            android:contentDescription="@string/yamazaki"
+            android:paddingLeft="15sp"
+            android:paddingTop="10sp"
+            android:paddingRight="15sp"
+            android:paddingBottom="10sp"
+            android:src="@drawable/logo_mazak" />
+
+        <TextView
+            android:id="@+id/logoSubTitleLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/department"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@android:drawable/bottom_bar" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/helloMain"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/heightInput"
+        android:layout_weight="0"
+        android:text="@string/helloMain"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/buttonLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/topLogin" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/helloMain">
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/button_my"
+            android:onClick="onClickBtn"
+            android:text="@string/add"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toTopOf="@id/del"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/del"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/button_my"
+            android:onClick="onClickBtn"
+            android:text="@string/del"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toTopOf="@id/check"
+            app:layout_constraintEnd_toEndOf="@+id/add"
+            app:layout_constraintStart_toStartOf="@+id/add" />
+
+        <Button
+            android:id="@+id/check"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_my"
+            android:onClick="onClickBtn"
+            android:text="@string/check"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toTopOf="@+id/infoLibrary"
+            app:layout_constraintEnd_toEndOf="@+id/del"
+            app:layout_constraintStart_toStartOf="@+id/del" />
+
+        <Button
+            android:id="@+id/infoLibrary"
+            android:layout_width="@dimen/heightInput"
+            android:layout_height="@dimen/heightInput"
+            android:background="@android:drawable/ic_menu_info_details"
+            android:backgroundTint="@color/mazak"
+            android:onClick="onClickBtn"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/del" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
