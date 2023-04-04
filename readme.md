@@ -29,8 +29,9 @@ In app:
 Major function this app is QR code scanner.
 After made list of sharepoint with tools we have QR code for each position of list. These codes we can sticky on tools and scan when we got  and when we sending to next user.
 
-App have a user manual in pdf file with many pics - invite for see [here](./manual.pdf)
+App have a user manual in pdf file with many pics - invite for see [here](./DOC/manual.pdf)
 
+![SCREEN_FOR_APP](./DOC/screen.jpg)
 
 ### TECHNOLOGIES
 
@@ -70,7 +71,7 @@ w aplikacji:
 Główną funkcją tej aplikacji jest skaner kodów QR.
 Po sporządzeniu listy sharepointów wraz z narzędziami mamy kod QR dla każdej pozycji listy. Kody te możemy przyklejać na narzędziach i skanować, kiedy je otrzymamy i kiedy wyślemy je do następnego użytkownika.
 
-Aplikacja posiada instrukcję obsługi w pliku pdf z wieloma zdjęciami - zapraszamy do obejrzenia [tutaj](./manual.pdf)
+Aplikacja posiada instrukcję obsługi w pliku pdf z wieloma zdjęciami - zapraszamy do obejrzenia [tutaj](./DOC/manual.pdf)
 
 ### USED LIBRARIES
 
