@@ -74,7 +74,7 @@ Aplikacja posiada instrukcję obsługi w pliku pdf z wieloma zdjęciami - zapras
 
 ### USED LIBRARIES
 
-##Libraries are using with MIT license or Apache 2.0 license:
+## Libraries are using with MIT license or Apache 2.0 license:
 
 
 With licenses can see here: [MIT](https://opensource.org/licenses/MIT) and [Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0)
