@@ -11,7 +11,7 @@
 
 ### DESCRIPTION EN
 
-App writed for Yamazaki Mazak CEPL.
+App is written for concrete company - so each registered marks of this company are covered cheerful cloud.
 
 App for exchange service tools between service enginners on whole country.
 Service enginners have some tools in equip, tools which are in personal and special tools which are only two or one pices for the whole country and they have to send these between self.
@@ -41,8 +41,7 @@ App have a user manual in pdf file with many pics - invite for see [here](./DOC/
 
 - ANDROID OS DEVICES
 - OFFICE 365 - COMPANY ACCOUNT
-- APP ONLY FOR YAMAZAKI MAZAK COMPANY
-- RELEVANT LIST IN SHAREPOINT
+- RELEVANT LISTS IN SHAREPOINT
 
 ### HOW START
 
@@ -53,7 +52,7 @@ App have a user manual in pdf file with many pics - invite for see [here](./DOC/
 
 ### DESCRIPTION PL
 
-Aplikacja napisana dla Yamazaki Mazak CEPL.
+Aplikacja jest napisana dla konkretnej firmy - więc każdy zarejestrowany znak tej firmy jest zakryty wesołą chmurką.
 
 Aplikacja do wymiany narzędzi serwisowych pomiędzy serwisantami na terenie całego kraju.
 Inżynierowie serwisowi mają na wyposażeniu jakieś narzędzia, narzędzia, które są na wyposażeniu osobistym oraz narzędzia specjalne, które stanowią tylko dwie lub jedną sztukę na cały kraj i muszą je przesyłać między sobą.
