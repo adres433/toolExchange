@@ -10,15 +10,15 @@ android {
     signingConfigs {
         debug {
             storeFile file('C:\\Users\\adres433\\.android\\o356keystore.jks')
-            storePassword 'bgAdy7'
-            keyPassword 'bgAdy7'
+            storePassword 'pass'
+            keyPassword 'pass'
             keyAlias 'o365'
         }
         release {
             storeFile file('C:\\Users\\adres433\\.android\\o356keystore.jks')
-            storePassword 'bgAdy7'
+            storePassword 'pass'
             keyAlias 'o365'
-            keyPassword 'bgAdy7'
+            keyPassword 'pass'
         }
     }
     compileSdk 32

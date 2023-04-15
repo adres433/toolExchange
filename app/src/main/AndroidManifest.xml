@@ -43,7 +43,7 @@
 
                 <data
                     android:host="com.example.toolexchange"
-                    android:path="/KqQrR+78x1O36R18aIkTOklyhyY="
+                    android:path="API_KEY"
                     android:scheme="msauth" />
             </intent-filter>
         </activity>
